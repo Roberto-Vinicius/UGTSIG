@@ -61,8 +61,8 @@ Observações:
 
     ```properties
     spring.datasource.url=jdbc:postgresql://localhost:5431/seubancodedados    # Lembre-se de criar um banco com esse nome
-    spring.datasource.username=seuusuario                                # Lembre-se, este é o seu usuário do MySQL
-    spring.datasource.password=suasenha                                  # Lembre-se, esta é a sua senha do MySQL
+    spring.datasource.username=seuusuario                                     # Lembre-se, este é o seu usuário do Postgre
+    spring.datasource.password=suasenha                                       # Lembre-se, esta é a sua senha do Postgre
     spring.jpa.hibernate.ddl-auto=update
     ```
 
