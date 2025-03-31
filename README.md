@@ -68,8 +68,6 @@ Observações:
 
     Caso não tenha PostgreSQL, Fique à vontade para usar o H2 Database. Ele só guarda informações até o fim da aplicação. Para usar, apenas descomente as linhas referentes a ele e comente as linhas do MySQL, conforme mostrado na imagem:
 
-    ![H2 Database]
-
 5. Compile e execute o projeto:
     ```sh
     mvn clean install
