@@ -56,7 +56,7 @@ Observações:
       application.properties
 
 
-3. Configure o banco de dados MySQL no arquivo `application.properties`.
+3. Configure o banco de dados PostgreSQL no arquivo `application.properties`.
  - localizado em ``:
 
     ```properties
