@@ -57,7 +57,7 @@ Observações:
 
 
 3. Configure o banco de dados PostgreSQL no arquivo `application.properties`.
- - localizado em ``:
+ - localizado em :
 
     ```properties
     spring.datasource.url=jdbc:postgresql://localhost:5431/seubancodedados    # Lembre-se de criar um banco com esse nome
@@ -66,7 +66,7 @@ Observações:
     spring.jpa.hibernate.ddl-auto=update
     ```
 
-    Caso não tenha PostgreSQL, Fique à vontade para usar o H2 Database. Ele só guarda informações até o fim da aplicação. Para usar, apenas descomente as linhas referentes a ele e comente as linhas do MySQL, conforme mostrado na imagem:
+    Caso não tenha PostgreSQL, Fique à vontade para usar o H2 Database. Ele só guarda informações até o fim da aplicação. Para usar, apenas descomente as linhas referentes a ele e comente as linhas do PostgreSQL.
 
 5. Compile e execute o projeto:
     ```sh
